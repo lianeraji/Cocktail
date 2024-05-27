@@ -4,13 +4,17 @@
  */
 package cocktail;
 
+
 public class Milk extends Ingredient {
     public Milk(int amount) {
-        super("Milk", amount, new RGB(255, 255, 255), 100); // white
+        super("Milk", amount, new RGB(255, 255, 255), 100);
     }
 
     @Override
     public int getCalories() {
         return 50 * getAmount();
     }
+    
+    
+    
 }
